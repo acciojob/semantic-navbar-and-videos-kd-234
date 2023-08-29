@@ -1,33 +1,28 @@
 <!DOCTYPE html>
-
+ 
 <html>
-
+ 
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
+ 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<h1>3 random videos</h1>
-	<nav class="nav">
-		<ul>
-			<li>
-				<a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" alt="video">Home</a>
-			</li>
-			<li>
-				<a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" alt="video">About us</a>
-			</li>
-			<li>
-				<a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" alt="video">Contact us</a>
-			</li>
-		</ul>
-	</nav>
-	
-	<video controls>
-		<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
-	</video>
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About us</a></li>
+		<li><a href="#">Contact us</a></li>
+	</ul>
+</nav>
+	<h1>3 random videos</h1>
+	<div class="videos">
+		<video controls><source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4"></video>
+		<video controls><source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4"></video>
+		<video controls><source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" type="video/mp4"></video>
+	</div>
 </body>
-
+ 
 </html>
